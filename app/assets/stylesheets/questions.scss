@@ -1,0 +1,21 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.qna {
+  margin: 20px auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.question, .answer {
+  margin: 30px 15px;
+  padding: 5px 30px;
+  background-color:rgb(248, 248, 248);
+  border-left: 3px solid grey;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.1);
+  letter-spacing: 1px;
+}
+
+.answer {
+  background-color: rgb(218, 217, 210);
+}
